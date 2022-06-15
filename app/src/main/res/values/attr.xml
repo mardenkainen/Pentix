@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FigureView">
+        <attr name="fontFamily" format="string"/>
+        <attr name="headText" format="string"/>
+        <attr name="android:textSize" format="dimension"/>
+        <attr name="headTextColor" format="color"/>
+        <attr name="textPadding" format="dimension"/>
+    </declare-styleable>
+</resources>

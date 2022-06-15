@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pentix</string>
+    <string name="high_score_default">High score: %d</string>
+    <string name="new_game">New game</string>
+    <string name="reset_score">Reset score</string>
+    <string name="exit">exit</string>
+    <string name="level">level %d</string>
+    <string name="game_over">GAME OVER!</string>
+    <string name="score_message">your score: %d</string>
+    <string name="back">share</string>
+</resources>
