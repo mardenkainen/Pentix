@@ -5,7 +5,7 @@ Pentix is an extended version of the Tetris game. If only figures of four square
  ___
  ## Polyominoes:
  ### Monomino:
- + O1
+ + O1 ![O1](https://user-images.githubusercontent.com/107583021/174073773-dc4b0203-ada2-40ee-9880-166ddd4307c3.svg)
   ### Domino:
  + I2
   ### Triomino:
