@@ -1,4 +1,4 @@
-# Pentix
+# Pentix :video_game:
 Pentix is an extended version of the Tetris game. If only figures of four squares (tetramino) are used in Tetris,
  then figures of 5 squares (pentamino), 3 squares (triomino), two squares (domino) and one square (monomino) are added in pentix.
  To simplify the game, in addition to the rotation of the figures, reflection along the X axis is allowed.
