@@ -31,3 +31,10 @@ Pentix is an extended version of the Tetris game. If only figures of four square
  + <p> <img src="https://user-images.githubusercontent.com/107583021/174084445-dc8791a1-596e-4a26-a8de-eb176ef33050.svg" width="30"/>  X5</p>
  + <p> <img src="https://user-images.githubusercontent.com/107583021/174084444-c58beec2-5c1a-42c4-b989-c20aecf784a8.svg" width="40"/>  Y5</p>
  + <p> <img src="https://user-images.githubusercontent.com/107583021/174084440-e83552c6-57cb-4ff1-8a35-19b318956329.svg" width="30"/>  Z5</p>
+ 
+ ## Game process
+
+<p align="center"> 
+ <img src="https://user-images.githubusercontent.com/107583021/174090519-8a8f50cd-b383-48ab-adde-a4911a8aa967.jpg" width="300"/>
+ <img src="https://user-images.githubusercontent.com/107583021/174090533-044764b0-fb17-4314-a10f-a83cc0695c94.jpg" width="300"/>
+</p>
