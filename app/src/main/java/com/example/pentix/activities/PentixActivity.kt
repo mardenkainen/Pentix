@@ -31,6 +31,8 @@ class PentixActivity : AppCompatActivity() {
         val figureHolder=findViewById<FigureView>(R.id.holder)
         findViews()
         recordScoreView!!.text="$record"
+        setLevelText(0)
+        updateScore(0)
         mirror!!.setOnClickListener {
             pentixView!!.fieldMove(Pentix.Motions.MIRROR)
             pressAnimation()
@@ -43,14 +45,13 @@ class PentixActivity : AppCompatActivity() {
                 nextFigureView.setFigure(nextFigureType)
 
             }
-
             override fun onRowsFilled(numOfFilledRows: Int) {
                 lines+=numOfFilledRows
                 updateScore(numOfFilledRows)
                 if (lines>=8){
                     level++
                     pentixView!!.increaseGameSpeed()
-                    levelView!!.text=getString(R.string.level,level)
+                    setLevelText(level)
                     lines %= 8
                 }
             }
@@ -73,6 +74,10 @@ class PentixActivity : AppCompatActivity() {
         mirror!!.setBackgroundResource(R.drawable.avd_mirror_btn_animation)
         val  avdPress=mirror!!.background as AnimatedVectorDrawable
         avdPress.start()
+    }
+
+    private fun setLevelText(level:Int){
+        levelView!!.text=getString(R.string.level,level)
     }
 
     private fun updateScore(filledRows:Int){

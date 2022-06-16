@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="O1_color">#F3B778</color>
-    <color name="I2_color">#ddbb98</color>
+    <color name="I2_color">#6AD6A4</color>
     <color name="I3_color">#A6E06B</color>
     <color name="L3_color">#8181f7</color>
     <color name="L4_color">#f5bc69</color>
-    <color name="I4_color">#ddbb98</color>
-    <color name="O4_color">#f7d45b</color>
+    <color name="I4_color">#6EC7DD</color>
+    <color name="O4_color">#F4D774</color>
     <color name="T4_color">#BD7EF3</color>
     <color name="S4_color">#df7474</color>
     <color name="I5_color">#eea8a8</color>
